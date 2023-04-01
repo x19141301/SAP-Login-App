@@ -1,0 +1,41 @@
+body 
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.form
+{
+    width: 50%;
+    margin: 0 auto;
+}
+.logout-link
+{
+    float: right;
+    padding-right: 10px;
+}
+.login-link, .register-link
+{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+header, .header
+{
+    width: 100% !important;
+    border-bottom: 1px solid black !important;
+}
+.header-area
+{
+    border-bottom: 1px solid #EEE;
+}
+.dashboard-area
+{
+    width: 100%;
+    height: 100%;
+}
+.text-title
+{
+    color: black;
+}
